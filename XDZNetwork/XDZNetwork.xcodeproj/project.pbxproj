@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045D005D21D0BC8D0055CF46 /* XDZBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D005C21D0BC8D0055CF46 /* XDZBaseResponse.m */; };
+		045D006021D0BDAC0055CF46 /* XDZDefaultResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D005F21D0BDAC0055CF46 /* XDZDefaultResponse.m */; };
+		045D006821D0C0B10055CF46 /* XDZBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D006721D0C0B10055CF46 /* XDZBaseRequest.m */; };
+		045D007021D0C3BE0055CF46 /* XDZYTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D006F21D0C3BE0055CF46 /* XDZYTKBaseRequest.m */; };
+		045D007921D0CBF40055CF46 /* URLFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D007821D0CBF40055CF46 /* URLFilter.m */; };
+		045D007E21D0D6630055CF46 /* XDZModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D007C21D0D6630055CF46 /* XDZModuleManager.m */; };
+		045D008221D0D7130055CF46 /* XDZNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D008121D0D7130055CF46 /* XDZNetworkService.m */; };
+		045D008521D0DA7B0055CF46 /* XDZBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D008421D0DA7B0055CF46 /* XDZBatchRequest.m */; };
+		045D008B21D0E0460055CF46 /* XDZGTBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D008A21D0E0460055CF46 /* XDZGTBinding.m */; };
+		045D009221D1C9B40055CF46 /* XDZGoodsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D009121D1C9B40055CF46 /* XDZGoodsRequest.m */; };
+		045D009521D1D0A80055CF46 /* XDZChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D009421D1D0A80055CF46 /* XDZChainRequest.m */; };
+		045D009821D1D62A0055CF46 /* RegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D009721D1D62A0055CF46 /* RegisterApi.m */; };
+		045D009B21D1D8210055CF46 /* GetUserInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D009A21D1D8210055CF46 /* GetUserInfoApi.m */; };
+		04BD5E1421D0B64500B8F427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5E1321D0B64500B8F427 /* AppDelegate.m */; };
+		04BD5E1721D0B64500B8F427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5E1621D0B64500B8F427 /* ViewController.m */; };
+		04BD5E1A21D0B64500B8F427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD5E1821D0B64500B8F427 /* Main.storyboard */; };
+		04BD5E1C21D0B64600B8F427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BD5E1B21D0B64600B8F427 /* Assets.xcassets */; };
+		04BD5E1F21D0B64600B8F427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD5E1D21D0B64600B8F427 /* LaunchScreen.storyboard */; };
+		04BD5E2221D0B64600B8F427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5E2121D0B64600B8F427 /* main.m */; };
+		04BD5E2C21D0B64600B8F427 /* XDZNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5E2B21D0B64600B8F427 /* XDZNetworkTests.m */; };
+		04BD5E3721D0B64600B8F427 /* XDZNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5E3621D0B64600B8F427 /* XDZNetworkUITests.m */; };
+		04BD5E4B21D0BA2700B8F427 /* XDZBaseRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD5E4A21D0BA2700B8F427 /* XDZBaseRequestData.m */; };
+		362F31BB5AACA8C4DE7A4E05 /* libPods-XDZNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B56E1059D7507B67B7B76F /* libPods-XDZNetwork.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BD5E2821D0B64600B8F427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BD5E0721D0B64400B8F427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BD5E0E21D0B64500B8F427;
+			remoteInfo = XDZNetwork;
+		};
+		04BD5E3321D0B64600B8F427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BD5E0721D0B64400B8F427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BD5E0E21D0B64500B8F427;
+			remoteInfo = XDZNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045D005B21D0BC8D0055CF46 /* XDZBaseResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZBaseResponse.h; sourceTree = "<group>"; };
+		045D005C21D0BC8D0055CF46 /* XDZBaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZBaseResponse.m; sourceTree = "<group>"; };
+		045D005E21D0BDAC0055CF46 /* XDZDefaultResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZDefaultResponse.h; sourceTree = "<group>"; };
+		045D005F21D0BDAC0055CF46 /* XDZDefaultResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZDefaultResponse.m; sourceTree = "<group>"; };
+		045D006521D0BEA60055CF46 /* XDZBaseRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZBaseRequestProtocol.h; sourceTree = "<group>"; };
+		045D006621D0C0B10055CF46 /* XDZBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZBaseRequest.h; sourceTree = "<group>"; };
+		045D006721D0C0B10055CF46 /* XDZBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZBaseRequest.m; sourceTree = "<group>"; };
+		045D006B21D0C3730055CF46 /* XDZBaseRequest+YTKAdaption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XDZBaseRequest+YTKAdaption.h"; sourceTree = "<group>"; };
+		045D006E21D0C3BE0055CF46 /* XDZYTKBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZYTKBaseRequest.h; sourceTree = "<group>"; };
+		045D006F21D0C3BE0055CF46 /* XDZYTKBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZYTKBaseRequest.m; sourceTree = "<group>"; };
+		045D007721D0CBF40055CF46 /* URLFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLFilter.h; sourceTree = "<group>"; };
+		045D007821D0CBF40055CF46 /* URLFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLFilter.m; sourceTree = "<group>"; };
+		045D007B21D0D6630055CF46 /* XDZModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDZModuleProtocol.h; sourceTree = "<group>"; };
+		045D007C21D0D6630055CF46 /* XDZModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDZModuleManager.m; sourceTree = "<group>"; };
+		045D007D21D0D6630055CF46 /* XDZModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDZModuleManager.h; sourceTree = "<group>"; };
+		045D007F21D0D6970055CF46 /* XDZNetworkServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZNetworkServiceProtocol.h; sourceTree = "<group>"; };
+		045D008021D0D7130055CF46 /* XDZNetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZNetworkService.h; sourceTree = "<group>"; };
+		045D008121D0D7130055CF46 /* XDZNetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZNetworkService.m; sourceTree = "<group>"; };
+		045D008321D0DA7B0055CF46 /* XDZBatchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZBatchRequest.h; sourceTree = "<group>"; };
+		045D008421D0DA7B0055CF46 /* XDZBatchRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZBatchRequest.m; sourceTree = "<group>"; };
+		045D008621D0DCF50055CF46 /* XDZBatchRequest+ServicePrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XDZBatchRequest+ServicePrivate.h"; sourceTree = "<group>"; };
+		045D008921D0E0460055CF46 /* XDZGTBinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZGTBinding.h; sourceTree = "<group>"; };
+		045D008A21D0E0460055CF46 /* XDZGTBinding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZGTBinding.m; sourceTree = "<group>"; };
+		045D009021D1C9B40055CF46 /* XDZGoodsRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZGoodsRequest.h; sourceTree = "<group>"; };
+		045D009121D1C9B40055CF46 /* XDZGoodsRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZGoodsRequest.m; sourceTree = "<group>"; };
+		045D009321D1D0A80055CF46 /* XDZChainRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZChainRequest.h; sourceTree = "<group>"; };
+		045D009421D1D0A80055CF46 /* XDZChainRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZChainRequest.m; sourceTree = "<group>"; };
+		045D009621D1D62A0055CF46 /* RegisterApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterApi.h; sourceTree = "<group>"; };
+		045D009721D1D62A0055CF46 /* RegisterApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterApi.m; sourceTree = "<group>"; };
+		045D009921D1D8210055CF46 /* GetUserInfoApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetUserInfoApi.h; sourceTree = "<group>"; };
+		045D009A21D1D8210055CF46 /* GetUserInfoApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetUserInfoApi.m; sourceTree = "<group>"; };
+		04BD5E0F21D0B64500B8F427 /* XDZNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDZNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD5E1221D0B64500B8F427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BD5E1321D0B64500B8F427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BD5E1521D0B64500B8F427 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BD5E1621D0B64500B8F427 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BD5E1921D0B64500B8F427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BD5E1B21D0B64600B8F427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BD5E1E21D0B64600B8F427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BD5E2021D0B64600B8F427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BD5E2121D0B64600B8F427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BD5E2721D0B64600B8F427 /* XDZNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDZNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD5E2B21D0B64600B8F427 /* XDZNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZNetworkTests.m; sourceTree = "<group>"; };
+		04BD5E2D21D0B64600B8F427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BD5E3221D0B64600B8F427 /* XDZNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDZNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD5E3621D0B64600B8F427 /* XDZNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZNetworkUITests.m; sourceTree = "<group>"; };
+		04BD5E3821D0B64600B8F427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BD5E4721D0B81900B8F427 /* XDZBaseRequestDataProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZBaseRequestDataProtocol.h; sourceTree = "<group>"; };
+		04BD5E4821D0B8C600B8F427 /* XDZNetworkCommonDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZNetworkCommonDefines.h; sourceTree = "<group>"; };
+		04BD5E4921D0BA2700B8F427 /* XDZBaseRequestData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDZBaseRequestData.h; sourceTree = "<group>"; };
+		04BD5E4A21D0BA2700B8F427 /* XDZBaseRequestData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDZBaseRequestData.m; sourceTree = "<group>"; };
+		0755A0E9E8E0A08E07B8E755 /* Pods-XDZNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDZNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XDZNetwork/Pods-XDZNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		35B56E1059D7507B67B7B76F /* libPods-XDZNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XDZNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4401FB40BB1FA773CF94673 /* Pods-XDZNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDZNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-XDZNetwork/Pods-XDZNetwork.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BD5E0C21D0B64500B8F427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362F31BB5AACA8C4DE7A4E05 /* libPods-XDZNetwork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD5E2421D0B64600B8F427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD5E2F21D0B64600B8F427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045D006121D0BE7D0055CF46 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				045D008C21D1C8190055CF46 /* SingleRequest */,
+				045D006E21D0C3BE0055CF46 /* XDZYTKBaseRequest.h */,
+				045D006F21D0C3BE0055CF46 /* XDZYTKBaseRequest.m */,
+				045D007F21D0D6970055CF46 /* XDZNetworkServiceProtocol.h */,
+				045D008021D0D7130055CF46 /* XDZNetworkService.h */,
+				045D008121D0D7130055CF46 /* XDZNetworkService.m */,
+				045D008321D0DA7B0055CF46 /* XDZBatchRequest.h */,
+				045D008421D0DA7B0055CF46 /* XDZBatchRequest.m */,
+				045D008621D0DCF50055CF46 /* XDZBatchRequest+ServicePrivate.h */,
+				045D009321D1D0A80055CF46 /* XDZChainRequest.h */,
+				045D009421D1D0A80055CF46 /* XDZChainRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		045D007121D0C7F50055CF46 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				045D007721D0CBF40055CF46 /* URLFilter.h */,
+				045D007821D0CBF40055CF46 /* URLFilter.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		045D007A21D0D6570055CF46 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				045D007B21D0D6630055CF46 /* XDZModuleProtocol.h */,
+				045D007D21D0D6630055CF46 /* XDZModuleManager.h */,
+				045D007C21D0D6630055CF46 /* XDZModuleManager.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		045D008C21D1C8190055CF46 /* SingleRequest */ = {
+			isa = PBXGroup;
+			children = (
+				045D006B21D0C3730055CF46 /* XDZBaseRequest+YTKAdaption.h */,
+				045D006521D0BEA60055CF46 /* XDZBaseRequestProtocol.h */,
+				045D006621D0C0B10055CF46 /* XDZBaseRequest.h */,
+				045D006721D0C0B10055CF46 /* XDZBaseRequest.m */,
+			);
+			path = SingleRequest;
+			sourceTree = "<group>";
+		};
+		04BD5E0621D0B64400B8F427 = {
+			isa = PBXGroup;
+			children = (
+				04BD5E1121D0B64500B8F427 /* XDZNetwork */,
+				04BD5E2A21D0B64600B8F427 /* XDZNetworkTests */,
+				04BD5E3521D0B64600B8F427 /* XDZNetworkUITests */,
+				04BD5E1021D0B64500B8F427 /* Products */,
+				C14E7E8C8A0F704B112D0666 /* Pods */,
+				1CD0A927F77C0CC5E210EA64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04BD5E1021D0B64500B8F427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BD5E0F21D0B64500B8F427 /* XDZNetwork.app */,
+				04BD5E2721D0B64600B8F427 /* XDZNetworkTests.xctest */,
+				04BD5E3221D0B64600B8F427 /* XDZNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BD5E1121D0B64500B8F427 /* XDZNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				04BD5E4421D0B66E00B8F427 /* Network */,
+				04BD5E1221D0B64500B8F427 /* AppDelegate.h */,
+				04BD5E1321D0B64500B8F427 /* AppDelegate.m */,
+				04BD5E1521D0B64500B8F427 /* ViewController.h */,
+				04BD5E1621D0B64500B8F427 /* ViewController.m */,
+				04BD5E1821D0B64500B8F427 /* Main.storyboard */,
+				04BD5E1B21D0B64600B8F427 /* Assets.xcassets */,
+				04BD5E1D21D0B64600B8F427 /* LaunchScreen.storyboard */,
+				04BD5E2021D0B64600B8F427 /* Info.plist */,
+				04BD5E2121D0B64600B8F427 /* main.m */,
+				045D008921D0E0460055CF46 /* XDZGTBinding.h */,
+				045D008A21D0E0460055CF46 /* XDZGTBinding.m */,
+				045D009021D1C9B40055CF46 /* XDZGoodsRequest.h */,
+				045D009121D1C9B40055CF46 /* XDZGoodsRequest.m */,
+				045D009621D1D62A0055CF46 /* RegisterApi.h */,
+				045D009721D1D62A0055CF46 /* RegisterApi.m */,
+				045D009921D1D8210055CF46 /* GetUserInfoApi.h */,
+				045D009A21D1D8210055CF46 /* GetUserInfoApi.m */,
+			);
+			path = XDZNetwork;
+			sourceTree = "<group>";
+		};
+		04BD5E2A21D0B64600B8F427 /* XDZNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BD5E2B21D0B64600B8F427 /* XDZNetworkTests.m */,
+				04BD5E2D21D0B64600B8F427 /* Info.plist */,
+			);
+			path = XDZNetworkTests;
+			sourceTree = "<group>";
+		};
+		04BD5E3521D0B64600B8F427 /* XDZNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BD5E3621D0B64600B8F427 /* XDZNetworkUITests.m */,
+				04BD5E3821D0B64600B8F427 /* Info.plist */,
+			);
+			path = XDZNetworkUITests;
+			sourceTree = "<group>";
+		};
+		04BD5E4421D0B66E00B8F427 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				045D007A21D0D6570055CF46 /* Router */,
+				045D007121D0C7F50055CF46 /* Tools */,
+				045D006121D0BE7D0055CF46 /* Request */,
+				04BD5E4621D0B76C00B8F427 /* Define */,
+				04BD5E4521D0B76400B8F427 /* Data */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		04BD5E4521D0B76400B8F427 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04BD5E4721D0B81900B8F427 /* XDZBaseRequestDataProtocol.h */,
+				04BD5E4921D0BA2700B8F427 /* XDZBaseRequestData.h */,
+				04BD5E4A21D0BA2700B8F427 /* XDZBaseRequestData.m */,
+				045D005B21D0BC8D0055CF46 /* XDZBaseResponse.h */,
+				045D005C21D0BC8D0055CF46 /* XDZBaseResponse.m */,
+				045D005E21D0BDAC0055CF46 /* XDZDefaultResponse.h */,
+				045D005F21D0BDAC0055CF46 /* XDZDefaultResponse.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		04BD5E4621D0B76C00B8F427 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				04BD5E4821D0B8C600B8F427 /* XDZNetworkCommonDefines.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		1CD0A927F77C0CC5E210EA64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35B56E1059D7507B67B7B76F /* libPods-XDZNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C14E7E8C8A0F704B112D0666 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0755A0E9E8E0A08E07B8E755 /* Pods-XDZNetwork.debug.xcconfig */,
+				D4401FB40BB1FA773CF94673 /* Pods-XDZNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BD5E0E21D0B64500B8F427 /* XDZNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD5E3B21D0B64600B8F427 /* Build configuration list for PBXNativeTarget "XDZNetwork" */;
+			buildPhases = (
+				EA956EFED6430148B8F85C5A /* [CP] Check Pods Manifest.lock */,
+				04BD5E0B21D0B64500B8F427 /* Sources */,
+				04BD5E0C21D0B64500B8F427 /* Frameworks */,
+				04BD5E0D21D0B64500B8F427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDZNetwork;
+			productName = XDZNetwork;
+			productReference = 04BD5E0F21D0B64500B8F427 /* XDZNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BD5E2621D0B64600B8F427 /* XDZNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD5E3E21D0B64600B8F427 /* Build configuration list for PBXNativeTarget "XDZNetworkTests" */;
+			buildPhases = (
+				04BD5E2321D0B64600B8F427 /* Sources */,
+				04BD5E2421D0B64600B8F427 /* Frameworks */,
+				04BD5E2521D0B64600B8F427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BD5E2921D0B64600B8F427 /* PBXTargetDependency */,
+			);
+			name = XDZNetworkTests;
+			productName = XDZNetworkTests;
+			productReference = 04BD5E2721D0B64600B8F427 /* XDZNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BD5E3121D0B64600B8F427 /* XDZNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD5E4121D0B64600B8F427 /* Build configuration list for PBXNativeTarget "XDZNetworkUITests" */;
+			buildPhases = (
+				04BD5E2E21D0B64600B8F427 /* Sources */,
+				04BD5E2F21D0B64600B8F427 /* Frameworks */,
+				04BD5E3021D0B64600B8F427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BD5E3421D0B64600B8F427 /* PBXTargetDependency */,
+			);
+			name = XDZNetworkUITests;
+			productName = XDZNetworkUITests;
+			productReference = 04BD5E3221D0B64600B8F427 /* XDZNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BD5E0721D0B64400B8F427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "鹏sir";
+				TargetAttributes = {
+					04BD5E0E21D0B64500B8F427 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04BD5E2621D0B64600B8F427 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04BD5E0E21D0B64500B8F427;
+					};
+					04BD5E3121D0B64600B8F427 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04BD5E0E21D0B64500B8F427;
+					};
+				};
+			};
+			buildConfigurationList = 04BD5E0A21D0B64400B8F427 /* Build configuration list for PBXProject "XDZNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BD5E0621D0B64400B8F427;
+			productRefGroup = 04BD5E1021D0B64500B8F427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BD5E0E21D0B64500B8F427 /* XDZNetwork */,
+				04BD5E2621D0B64600B8F427 /* XDZNetworkTests */,
+				04BD5E3121D0B64600B8F427 /* XDZNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BD5E0D21D0B64500B8F427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD5E1F21D0B64600B8F427 /* LaunchScreen.storyboard in Resources */,
+				04BD5E1C21D0B64600B8F427 /* Assets.xcassets in Resources */,
+				04BD5E1A21D0B64500B8F427 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD5E2521D0B64600B8F427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD5E3021D0B64600B8F427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA956EFED6430148B8F85C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XDZNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BD5E0B21D0B64500B8F427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D008B21D0E0460055CF46 /* XDZGTBinding.m in Sources */,
+				045D007021D0C3BE0055CF46 /* XDZYTKBaseRequest.m in Sources */,
+				045D008521D0DA7B0055CF46 /* XDZBatchRequest.m in Sources */,
+				045D006821D0C0B10055CF46 /* XDZBaseRequest.m in Sources */,
+				045D007921D0CBF40055CF46 /* URLFilter.m in Sources */,
+				04BD5E1721D0B64500B8F427 /* ViewController.m in Sources */,
+				045D007E21D0D6630055CF46 /* XDZModuleManager.m in Sources */,
+				045D009821D1D62A0055CF46 /* RegisterApi.m in Sources */,
+				04BD5E2221D0B64600B8F427 /* main.m in Sources */,
+				045D009B21D1D8210055CF46 /* GetUserInfoApi.m in Sources */,
+				04BD5E1421D0B64500B8F427 /* AppDelegate.m in Sources */,
+				045D009221D1C9B40055CF46 /* XDZGoodsRequest.m in Sources */,
+				04BD5E4B21D0BA2700B8F427 /* XDZBaseRequestData.m in Sources */,
+				045D008221D0D7130055CF46 /* XDZNetworkService.m in Sources */,
+				045D005D21D0BC8D0055CF46 /* XDZBaseResponse.m in Sources */,
+				045D009521D1D0A80055CF46 /* XDZChainRequest.m in Sources */,
+				045D006021D0BDAC0055CF46 /* XDZDefaultResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD5E2321D0B64600B8F427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD5E2C21D0B64600B8F427 /* XDZNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD5E2E21D0B64600B8F427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD5E3721D0B64600B8F427 /* XDZNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BD5E2921D0B64600B8F427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BD5E0E21D0B64500B8F427 /* XDZNetwork */;
+			targetProxy = 04BD5E2821D0B64600B8F427 /* PBXContainerItemProxy */;
+		};
+		04BD5E3421D0B64600B8F427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BD5E0E21D0B64500B8F427 /* XDZNetwork */;
+			targetProxy = 04BD5E3321D0B64600B8F427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BD5E1821D0B64500B8F427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BD5E1921D0B64500B8F427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BD5E1D21D0B64600B8F427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BD5E1E21D0B64600B8F427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BD5E3921D0B64600B8F427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BD5E3A21D0B64600B8F427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BD5E3C21D0B64600B8F427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0755A0E9E8E0A08E07B8E755 /* Pods-XDZNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHSCMH6YJR;
+				INFOPLIST_FILE = XDZNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-sir.XDZNetwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04BD5E3D21D0B64600B8F427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4401FB40BB1FA773CF94673 /* Pods-XDZNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHSCMH6YJR;
+				INFOPLIST_FILE = XDZNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-sir.XDZNetwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04BD5E3F21D0B64600B8F427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XDZNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-sir.XDZNetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDZNetwork.app/XDZNetwork";
+			};
+			name = Debug;
+		};
+		04BD5E4021D0B64600B8F427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XDZNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-sir.XDZNetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDZNetwork.app/XDZNetwork";
+			};
+			name = Release;
+		};
+		04BD5E4221D0B64600B8F427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XDZNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-sir.XDZNetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XDZNetwork;
+			};
+			name = Debug;
+		};
+		04BD5E4321D0B64600B8F427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XDZNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-sir.XDZNetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XDZNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BD5E0A21D0B64400B8F427 /* Build configuration list for PBXProject "XDZNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD5E3921D0B64600B8F427 /* Debug */,
+				04BD5E3A21D0B64600B8F427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BD5E3B21D0B64600B8F427 /* Build configuration list for PBXNativeTarget "XDZNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD5E3C21D0B64600B8F427 /* Debug */,
+				04BD5E3D21D0B64600B8F427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BD5E3E21D0B64600B8F427 /* Build configuration list for PBXNativeTarget "XDZNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD5E3F21D0B64600B8F427 /* Debug */,
+				04BD5E4021D0B64600B8F427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BD5E4121D0B64600B8F427 /* Build configuration list for PBXNativeTarget "XDZNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD5E4221D0B64600B8F427 /* Debug */,
+				04BD5E4321D0B64600B8F427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BD5E0721D0B64400B8F427 /* Project object */;
+}
